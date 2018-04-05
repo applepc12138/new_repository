@@ -1,0 +1,13 @@
+#include <iostream>
+#include <string>
+#include <vecetor>
+using namespace std;
+
+int main()
+{
+	vector<string> vectstr{"I","love","the","github"};
+	for(auto &p:vectstr){
+		cout<<p<<ends;
+	}
+	return 0;
+}
